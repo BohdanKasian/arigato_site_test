@@ -1,0 +1,125 @@
+@font-face {
+    font-family: "IskraCYR-Regular" ;
+    src: url("../fonts/IskraCYR-Regular.otf");
+}
+
+@font-face {
+    font-family: "IskraCYR-Medium";
+    src: url("../fonts/IskraCYR-Medium.otf");
+}
+
+body {
+    padding: 0;
+    margin: 0;
+}
+
+div {
+    box-sizing: border-box;
+}
+
+.box {
+    width: 1000px;
+    margin: 0 auto;
+}
+
+header {
+    background: url("../img/background-header.jpg") no-repeat center top / cover;
+    height: 147px;
+    display: flex;
+    align-items: center;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-number {
+    display: flex;
+    flex-direction: column;
+}
+
+.header-call {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.header {
+    font-family: "IskraCYR-Regular";
+}
+
+.header-call {
+    font-size: 16px;
+    color: #4a4a4a;
+}
+
+.header-phone_number {
+    font-size: 26px;
+    letter-spacing: -1px;
+}
+
+.header-phone_number > span {
+    font-size: 36px;
+    color: #ee262c;
+    letter-spacing: normal;
+    line-height: 0.8px;
+}
+
+.header_line {
+    border: 1px solid #5dca88;
+    height: 100px;
+}
+
+.header-basket {
+    display: flex;
+}
+
+.header-basket__text {
+    font-size: 13px;
+    align-self: center;
+    padding-right: 10px;
+}
+
+.header-delivery {
+    display: inline-flex;
+    justify-content: flex-end;
+}
+
+.header-delivery > div {
+    margin-right: 10px;
+}
+
+.header-delivery__text {
+    font-family: "IskraCYR-Medium";
+    text-transform: uppercase;
+    font-size: 18px;
+    text-align: right;
+    color: #4a4a4a;
+    width: 165px;
+    display: inline-flex;
+    line-height: 0.9;
+    padding-top: 8px;
+}
+
+.header-delivery__icons {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.header-delivery__icons img {
+    margin: 0 15px;
+}
+
+.header-delivery__icons img:nth-child(1) {
+    margin-right: 0;
+}
+
+.header-delivery__img {
+    height: 66px;
+    width: 66px;
+}
+
+* {
+    /*border: 1px solid red;*/
+}
