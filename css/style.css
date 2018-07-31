@@ -103,10 +103,11 @@ nav {
   height: 66px; }
 
 .navbar-list {
-  display: inline-flex;
-  padding: 0;
-  margin: 0 0 0 79px; }
+  display: inline-block;
+  text-align: center;
+  padding-left: 68px; }
   .navbar-list li {
+    display: inline;
     list-style-type: none; }
     .navbar-list li a {
       font-family: "IskraCYR-Regular";
@@ -114,14 +115,34 @@ nav {
       text-decoration: none;
       font-size: 15px;
       color: #ffffff;
-      padding: 15px 25px 16px; }
+      padding: 16px 25px; }
       .navbar-list li a:hover {
         background-color: red; }
 
 .shares {
   background: url("../img/background-shares.jpg") no-repeat center top/cover;
   color: #ffffff;
-  height: 490px; }
+  height: 490px;
+  overflow: hidden;
+  position: relative; }
+
+.left-bleed {
+  position: absolute;
+  left: 0px;
+  bottom: 0px;
+  height: 129px;
+  width: 812px;
+  background-color: black;
+  transform: translateX(-595px) translateY(0px) skewX(82deg); }
+
+.right-bleed {
+  position: absolute;
+  right: 0px;
+  bottom: 0px;
+  height: 129px;
+  width: 812px;
+  background-color: black;
+  transform: translateY(91px) skewY(-8deg); }
 
 .shares__title {
   font-family: "IskraCYR-Bold";
@@ -160,8 +181,5 @@ nav {
   text-decoration: none;
   padding: 16px 42px;
   font-weight: lighter; }
-
-* {
-  border: 1px solid blue; }
 
 /*# sourceMappingURL=style.css.map */
