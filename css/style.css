@@ -1,208 +1,165 @@
 @font-face {
-    font-family: "IskraCYR-Regular" ;
-    src: url("../fonts/IskraCYR-Regular.otf");
-}
-
+  font-family: "IskraCYR-Regular";
+  src: url("../fonts/IskraCYR-Regular.otf"); }
 @font-face {
-    font-family: "IskraCYR-Medium";
-    src: url("../fonts/IskraCYR-Medium.otf");
-}
-
+  font-family: "IskraCYR-Medium";
+  src: url("../fonts/IskraCYR-Medium.otf"); }
 @font-face {
-    font-family: "IskraCYR-Bold";
-    src: url("../fonts/IskraCYR-Bold.otf");
-}
-
+  font-family: "IskraCYR-Bold";
+  src: url("../fonts/IskraCYR-Bold.otf"); }
 body {
-    padding: 0;
-    margin: 0;
-}
+  padding: 0;
+  margin: 0; }
 
 div {
-    box-sizing: border-box;
-}
+  box-sizing: border-box; }
 
 .box {
-    width: 1000px;
-    margin: 0 auto;
-}
+  width: 1000px;
+  margin: 0 auto; }
 
 header {
-    background: url("../img/background-header.jpg") no-repeat center top / cover;
-    height: 147px;
-    display: flex;
-}
+  background: url("../img/background-header.jpg") no-repeat center top/cover;
+  height: 147px;
+  display: flex; }
 
 .header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding-top: 5px;
-}
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 5px; }
 
 .header-number {
-    display: flex;
-    flex-direction: column;
-}
+  display: flex;
+  flex-direction: column; }
 
 .header-call {
-    display: flex;
-    justify-content: flex-end;
-}
+  display: flex;
+  justify-content: flex-end; }
 
 .header {
-    font-family: "IskraCYR-Regular";
-}
+  font-family: "IskraCYR-Regular"; }
 
 .header-call {
-    font-size: 16px;
-    color: #4a4a4a;
-}
+  font-size: 16px;
+  color: #4a4a4a; }
 
 .header-phone_number {
-    font-size: 26px;
-    letter-spacing: -1px;
-}
-
-.header-phone_number > span {
+  font-size: 26px;
+  letter-spacing: -1px; }
+  .header-phone_number > span {
     font-size: 36px;
     color: #ee262c;
     letter-spacing: normal;
-    line-height: 0.8px;
-}
+    line-height: 0.8px; }
 
 .header_line {
-    border: 0.5px solid #5dca88;
-    height: 60px;
-}
+  border: 0.5px solid #5dca88;
+  height: 60px; }
 
 .header-basket {
-    display: flex;
-}
+  display: flex; }
 
 .header-basket__text {
-    font-size: 13px;
-    align-self: center;
-    padding-right: 10px;
-}
+  font-size: 13px;
+  align-self: center;
+  padding-right: 10px; }
 
 .header-delivery {
-    display: inline-flex;
-    justify-content: flex-end;
-}
-
-.header-delivery > div {
-    margin-right: 10px;
-}
+  display: inline-flex;
+  justify-content: flex-end; }
+  .header-delivery > div {
+    margin-right: 10px; }
 
 .header-delivery__text {
-    font-family: "IskraCYR-Medium";
-    text-transform: uppercase;
-    font-size: 18px;
-    text-align: right;
-    color: #4a4a4a;
-    width: 165px;
-    display: inline-flex;
-    line-height: 0.9;
-    padding-top: 8px;
-}
+  font-family: "IskraCYR-Medium";
+  text-transform: uppercase;
+  font-size: 18px;
+  text-align: right;
+  color: #4a4a4a;
+  width: 165px;
+  display: inline-flex;
+  line-height: 0.9;
+  padding-top: 8px; }
 
 .header-delivery__icons {
-    display: flex;
-    justify-content: flex-end;
-}
-
-.header-delivery__icons img {
-    margin: 0 15px;
-}
-
-.header-delivery__icons img:nth-child(1) {
-    margin-right: 0;
-}
+  display: flex;
+  justify-content: flex-end; }
+  .header-delivery__icons img {
+    margin: 0 15px; }
+    .header-delivery__icons img:nth-child(1) {
+      margin-right: 0; }
 
 .header-delivery__img {
-    height: 66px;
-    width: 66px;
-}
+  height: 66px;
+  width: 66px; }
 
 nav {
-    background: url("../img/background-navbar.png") no-repeat center top ;
-    top: 125px;
-    z-index: 100;
-    position: absolute;
-    width: 996px;
-    height: 100%;
-}
+  background: url("../img/background-navbar.png") no-repeat center top;
+  top: 125px;
+  z-index: 100;
+  position: absolute;
+  width: 996px;
+  height: 100%; }
 
 .navbar-list {
-    display: inline-flex;
-    padding: 0;
-    margin: 0 0 0 79px;
-
-}
+  display: inline-flex;
+  padding: 0;
+  margin: 0 0 0 79px; }
 
 .navbar-text {
-    font-family: "IskraCYR-Regular";
-    text-transform: uppercase;
-    font-size: 15px;
-    list-style: none;
-    color: #ffffff;
-    padding:15px 25px 16px;
-}
-
-.navbar-text:hover {
-    background-color: red;
-}
+  font-family: "IskraCYR-Regular";
+  text-transform: uppercase;
+  font-size: 15px;
+  list-style: none;
+  color: #ffffff;
+  padding: 15px 25px 16px; }
+  .navbar-text:hover {
+    background-color: red; }
 
 .shares {
-    background: url("../img/background-shares.jpg") no-repeat center top/ cover;
-    color: #ffffff;
-    height: 490px;
-}
+  background: url("../img/background-shares.jpg") no-repeat center top/cover;
+  color: #ffffff;
+  height: 490px; }
 
 .shares__title {
-    font-family: "IskraCYR-Bold";
-    text-transform: uppercase;
-    font-size: 48px;
-    width: 460px;
-    margin: 0 auto;
-    padding-top: 96px;
-    line-height: 1.1;
-    text-align: center;
-}
+  font-family: "IskraCYR-Bold";
+  text-transform: uppercase;
+  font-size: 48px;
+  width: 460px;
+  margin: 0 auto;
+  padding-top: 96px;
+  line-height: 1.1;
+  text-align: center; }
 
 .shares__line {
-    border: 0.5px solid red;
-    width: 99px;
-    margin: 20px auto;
-}
+  border: 0.5px solid red;
+  width: 99px;
+  margin: 20px auto; }
 
 .shares__text {
-    font-family: "IskraCYR-Regular";
-    font-size: 18px;
-    width: 555px;
-    text-align: center;
-    margin: 0 auto;
-    font-weight: lighter;
-}
+  font-family: "IskraCYR-Regular";
+  font-size: 18px;
+  width: 555px;
+  text-align: center;
+  margin: 0 auto;
+  font-weight: lighter; }
 
 .shares__button {
-    margin-top: 50px;
-    text-align: center;
-    /*padding-bottom: 120px;*/
-}
+  margin-top: 50px;
+  text-align: center; }
 
+/*padding-bottom: 120px; */
 .shares__button_link {
-    font-family: "IskraCYR-Bold";
-    font-size: 16px;
-    text-transform: uppercase;
-    background-color: #98c342;
-    color: #ffffff;
-    text-decoration: none;
-    padding: 16px 42px;
-    font-weight: lighter;
-}
+  font-family: "IskraCYR-Bold";
+  font-size: 16px;
+  text-transform: uppercase;
+  background-color: #98c342;
+  color: #ffffff;
+  text-decoration: none;
+  padding: 16px 42px;
+  font-weight: lighter; }
 
-* {
-    /*border: 1px solid red;*/
-}
+/*border: 1px solid red; */
+
+/*# sourceMappingURL=style.css.map */
