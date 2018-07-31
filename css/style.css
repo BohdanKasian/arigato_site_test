@@ -14,7 +14,7 @@ body {
 div {
   box-sizing: border-box; }
 
-.box {
+.wrapper {
   width: 1000px;
   margin: 0 auto; }
 
@@ -106,16 +106,17 @@ nav {
   display: inline-flex;
   padding: 0;
   margin: 0 0 0 79px; }
-
-.navbar-text {
-  font-family: "IskraCYR-Regular";
-  text-transform: uppercase;
-  font-size: 15px;
-  list-style: none;
-  color: #ffffff;
-  padding: 15px 25px 16px; }
-  .navbar-text:hover {
-    background-color: red; }
+  .navbar-list li {
+    list-style-type: none; }
+    .navbar-list li a {
+      font-family: "IskraCYR-Regular";
+      text-transform: uppercase;
+      text-decoration: none;
+      font-size: 15px;
+      color: #ffffff;
+      padding: 15px 25px 16px; }
+      .navbar-list li a:hover {
+        background-color: red; }
 
 .shares {
   background: url("../img/background-shares.jpg") no-repeat center top/cover;
@@ -160,6 +161,7 @@ nav {
   padding: 16px 42px;
   font-weight: lighter; }
 
-/*border: 1px solid red; */
+* {
+  border: 1px solid blue; }
 
 /*# sourceMappingURL=style.css.map */
