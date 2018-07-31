@@ -100,7 +100,7 @@ nav {
   z-index: 100;
   position: absolute;
   width: 996px;
-  height: 100%; }
+  height: 66px; }
 
 .navbar-list {
   display: inline-flex;
