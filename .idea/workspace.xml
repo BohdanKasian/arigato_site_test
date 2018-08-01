@@ -95,27 +95,29 @@
     <session id="1365293971">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="2" />
+          <entry key="project.closed" value="4" />
           <entry key="project.open.time.2" value="1" />
           <entry key="project.open.time.55" value="1" />
+          <entry key="project.open.time.60" value="1" />
+          <entry key="project.open.time.62" value="1" />
           <entry key="project.open.time.77" value="1" />
-          <entry key="project.opened" value="3" />
+          <entry key="project.opened" value="5" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="css" value="1165" />
           <entry key="gitignore" value="14" />
-          <entry key="html" value="588" />
-          <entry key="sass" value="505" />
+          <entry key="html" value="1141" />
+          <entry key="sass" value="1177" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="CSS" value="1165" />
-          <entry key="HTML" value="588" />
+          <entry key="HTML" value="1141" />
           <entry key="PLAIN_TEXT" value="14" />
-          <entry key="Sass" value="505" />
+          <entry key="Sass" value="1177" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -142,8 +144,11 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/index.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="337">
-                  <caret line="73" column="36" selection-start-line="73" selection-start-column="36" selection-end-line="73" selection-end-column="36" />
+                <state relative-caret-position="352">
+                  <caret line="141" column="32" selection-start-line="141" selection-start-column="32" selection-end-line="141" selection-end-column="32" />
+                  <folding>
+                    <element signature="n#div#0;n#div#0;n#section#1;n#body#0;n#html#0;n#!!top" />
+                  </folding>
                 </state>
               </provider>
             </entry>
@@ -151,7 +156,7 @@
           <file pinned="false" current-in-tab="false">
             <entry file="file://$USER_HOME$/Desktop/Фронтенд PSD/1Smart-app/1/css/main.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="177">
+                <state relative-caret-position="1860">
                   <caret line="124" column="10" selection-start-line="124" selection-start-column="4" selection-end-line="124" selection-end-column="10" />
                 </state>
               </provider>
@@ -163,9 +168,7 @@
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/css/style.css">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="-666" />
-              </provider>
+              <provider selected="true" editor-type-id="text-editor" />
             </entry>
           </file>
           <file pinned="false" current-in-tab="false">
@@ -180,8 +183,8 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/css/style.sass">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="412">
-                  <caret line="205" column="21" lean-forward="true" selection-start-line="205" selection-start-column="21" selection-end-line="205" selection-end-column="21" />
+                <state relative-caret-position="289">
+                  <caret line="228" column="12" selection-start-line="228" selection-start-column="12" selection-end-line="228" selection-end-column="12" />
                 </state>
               </provider>
             </entry>
@@ -342,7 +345,9 @@
       <workItem from="1532559716527" duration="15090000" />
       <workItem from="1532674191799" duration="12564000" />
       <workItem from="1533041095288" duration="1525000" />
-      <workItem from="1533044599481" duration="8337000" />
+      <workItem from="1533044599481" duration="8414000" />
+      <workItem from="1533127649411" duration="2425000" />
+      <workItem from="1533132527208" duration="7170000" />
     </task>
     <task id="LOCAL-00001" summary="header is ready">
       <created>1532575254914</created>
@@ -355,7 +360,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="43446000" />
+    <option name="totallyTimeSpent" value="53118000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -370,7 +375,7 @@
     <frame x="0" y="0" width="1368" height="724" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49752066" visible="true" weight="0.14637789" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49752066" visible="true" weight="0.14637789" />
       <window_info id="Structure" order="1" sideWeight="0.5024793" side_tool="true" weight="0.14637789" />
       <window_info id="Favorites" order="2" sideWeight="0.50088495" side_tool="true" weight="0.24981017" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -405,12 +410,15 @@
     <entry file="file://$PROJECT_DIR$/../master/training-project/css/style.css" />
     <entry file="file://$PROJECT_DIR$/../master/training-project/index.html" />
     <entry file="file://$PROJECT_DIR$/css/style.scss" />
-    <entry file="file://$USER_HOME$/Desktop/Фронтенд PSD/1Smart-app/1/index.html">
+    <entry file="file://$USER_HOME$/Desktop/Фронтенд PSD/1Smart-app/1/css/main.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="900">
-          <caret line="60" column="20" selection-start-line="60" selection-start-column="20" selection-end-line="60" selection-end-column="20" />
+        <state relative-caret-position="1860">
+          <caret line="124" column="10" selection-start-line="124" selection-start-column="4" selection-end-line="124" selection-end-column="10" />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/style.css">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
@@ -419,29 +427,27 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/Desktop/Фронтенд PSD/1Smart-app/1/css/main.css">
+    <entry file="file://$USER_HOME$/Desktop/Фронтенд PSD/1Smart-app/1/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="177">
-          <caret line="124" column="10" selection-start-line="124" selection-start-column="4" selection-end-line="124" selection-end-column="10" />
+        <state relative-caret-position="900">
+          <caret line="60" column="20" selection-start-line="60" selection-start-column="20" selection-end-line="60" selection-end-column="20" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="337">
-          <caret line="73" column="36" selection-start-line="73" selection-start-column="36" selection-end-line="73" selection-end-column="36" />
+        <state relative-caret-position="352">
+          <caret line="141" column="32" selection-start-line="141" selection-start-column="32" selection-end-line="141" selection-end-column="32" />
+          <folding>
+            <element signature="n#div#0;n#div#0;n#section#1;n#body#0;n#html#0;n#!!top" />
+          </folding>
         </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-666" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/css/style.sass">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="412">
-          <caret line="205" column="21" lean-forward="true" selection-start-line="205" selection-start-column="21" selection-end-line="205" selection-end-column="21" />
+        <state relative-caret-position="289">
+          <caret line="228" column="12" selection-start-line="228" selection-start-column="12" selection-end-line="228" selection-end-column="12" />
         </state>
       </provider>
     </entry>
