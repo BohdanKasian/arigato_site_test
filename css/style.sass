@@ -253,6 +253,23 @@ nav
   background: url("../img/background-news.jpg") no-repeat center (top / cover)
   margin-top: 35px
 
+.news__arrow
+  height: 380px
+  width: 50px
+  display: flex
+  align-items: center
+  justify-content: center
+  &:hover
+    background: rgba(0,0,0,0.5)
+
+.news__arrow__right
+    margin: 0 0 0 25px
+
+.news__slider
+  display: flex
+  justify-content: space-between
+  align-conten: center
+
 .news__title
   color: white
   text-align: center
@@ -264,7 +281,7 @@ nav
 
 .news_items
   display: flex
-  justify-content: center
+  justify-content: space-between
   padding-bottom: 42px
 
 .news_product
@@ -336,6 +353,76 @@ nav
   text-decoration: none
   padding: 10px 19px 10px 60px
 
+.procedure__title_text
+  font-family: "IskraCYR-Medium"
+  font-size: 36px
+  text-transform: uppercase
+  color: #272727
+  text-align: center
+  margin-bottom: 18px
 
+.procedure__step
+  display: flex
+  flex-wrap: wrap
+  align-items: flex-start
+  >div
+    height: 100%
+    width: 136px
+    margin: 0 0 0 132px
 
+.step
+  width: 120px
+  height: 120px
+  border: 5px solid #98c342
+  border-radius: 50%
+  background-color: #292929
+  display: flex
+  justify-content: center
+  align-items: center
 
+.procedure__step_text
+  font-family: "IskraCYR-Medium"
+  font-size: 16px
+  text-transform: uppercase
+  color: #3e3e3e
+  text-align: center
+
+.procedure__step
+  position: relative
+  .procedure__step-one
+    position: relative
+    margin-top: 34px
+    &:after
+      position: absolute
+      content: url("../img/icon-procedure/arrow-1.png")
+      top: 43px
+      left: 125px
+  .procedure__step-two
+    margin-top: 109px
+    position: relative
+    &:after
+      position: absolute
+      content: url("../img/icon-procedure/arrow-2.png")
+      top: -47px
+      left: 111px
+  .procedure__step-three
+    margin-top: 12px
+    margin-left: 121px
+    &:after
+      position: absolute
+      content: url("../img/icon-procedure/arrow-3.png")
+  .procedure__step-four
+    margin-top: -107px
+    order: 6
+    &:after
+      position: absolute
+      content: url("../img/icon-procedure/arrow-4.png")
+  .procedure__step-five
+    margin-top: 17px
+    order: 5
+    &:after
+      position: absolute
+      content: url("../img/icon-procedure/arrow-5.png")
+  .procedure__step-six
+    margin-top: -68px
+    order: 4
