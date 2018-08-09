@@ -132,7 +132,7 @@ nav {
   bottom: 0px;
   height: 129px;
   width: 812px;
-  background-color: black;
+  background-color: white;
   transform: translateX(-595px) translateY(0px) skewX(82deg); }
 
 .right-bleed {
@@ -141,7 +141,7 @@ nav {
   bottom: 0px;
   height: 129px;
   width: 812px;
-  background-color: black;
+  background-color: white;
   transform: translateY(91px) skewY(-8deg); }
 
 .shares__title {
@@ -346,7 +346,7 @@ nav {
   text-decoration: none;
   padding: 10px 19px 10px 60px; }
 
-.procedure__title_text {
+.title_text {
   font-family: "IskraCYR-Medium";
   font-size: 36px;
   text-transform: uppercase;
@@ -360,7 +360,6 @@ nav {
   align-items: flex-start; }
   .procedure__step > div {
     height: 100%;
-    width: 136px;
     margin: 0 0 0 132px; }
 
 .step {
@@ -382,42 +381,177 @@ nav {
 
 .procedure__step {
   position: relative; }
+  .procedure__step > div {
+    display: flex;
+    flex-direction: column;
+    align-items: center; }
   .procedure__step .procedure__step-one {
     position: relative;
-    margin-top: 34px; }
+    margin-top: 34px;
+    width: 170px; }
     .procedure__step .procedure__step-one:after {
       position: absolute;
       content: url("../img/icon-procedure/arrow-1.png");
       top: 43px;
-      left: 125px; }
+      left: 155px; }
   .procedure__step .procedure__step-two {
     margin-top: 109px;
-    position: relative; }
+    position: relative;
+    width: 150px;
+    margin-left: 115px; }
     .procedure__step .procedure__step-two:after {
       position: absolute;
       content: url("../img/icon-procedure/arrow-2.png");
-      top: -47px;
-      left: 111px; }
+      top: -40px;
+      left: 130px; }
   .procedure__step .procedure__step-three {
     margin-top: 12px;
-    margin-left: 121px; }
+    margin-left: 92px;
+    width: 185px; }
     .procedure__step .procedure__step-three:after {
       position: absolute;
-      content: url("../img/icon-procedure/arrow-3.png"); }
+      content: url("../img/icon-procedure/arrow-3.png");
+      top: 67px;
+      right: 84px; }
   .procedure__step .procedure__step-four {
-    margin-top: -107px;
-    order: 6; }
+    margin-top: -65px;
+    order: 6;
+    position: relative;
+    width: 250px;
+    margin-left: 28px; }
     .procedure__step .procedure__step-four:after {
       position: absolute;
-      content: url("../img/icon-procedure/arrow-4.png"); }
+      content: url("../img/icon-procedure/arrow-4.png");
+      top: 34px;
+      right: 187px; }
   .procedure__step .procedure__step-five {
     margin-top: 17px;
-    order: 5; }
+    order: 5;
+    position: relative;
+    width: 214px;
+    margin-left: 61px; }
     .procedure__step .procedure__step-five:after {
       position: absolute;
-      content: url("../img/icon-procedure/arrow-5.png"); }
+      content: url("../img/icon-procedure/arrow-5.png");
+      top: -32px;
+      right: 166px; }
   .procedure__step .procedure__step-six {
-    margin-top: -68px;
-    order: 4; }
+    margin-top: -41px;
+    order: 4;
+    width: 210px;
+    margin-left: 114px; }
+
+.procedure__title h2:last-child {
+  font-family: "IskraCYR-Regular";
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 36px;
+  color: #98c342;
+  margin-top: 47px;
+  padding-bottom: 40px; }
+
+footer {
+  background: url("../img/background-footer.png") no-repeat center top/cover; }
+  footer .title_text {
+    color: white; }
+
+.footer__box {
+  padding-bottom: 15px; }
+
+.footer__title-text {
+  padding-top: 80px;
+  padding-bottom: 34px; }
+
+.footer-customer-reviews {
+  display: flex;
+  justify-content: center;
+  height: 145px;
+  text-align: center;
+  color: #ffffff; }
+  .footer-customer-reviews .review_text {
+    font-family: "IskraCYR-Regular";
+    font-size: 14px;
+    width: 720px;
+    margin: 0 auto;
+    padding-top: 21px;
+    padding-bottom: 11px; }
+  .footer-customer-reviews .review__name_text {
+    padding-top: 11px;
+    font-size: 18px;
+    font-family: "IskraCYR-Bold";
+    margin: 0; }
+  .footer-customer-reviews .footer_line {
+    border: 1px solid #bfd988;
+    width: 93px;
+    margin: 0 auto; }
+  .footer-customer-reviews .footer-customer-reviews_content {
+    width: 785px;
+    background: rgba(153, 204, 102, 0.5); }
+  .footer-customer-reviews .news__arrow {
+    height: 145px;
+    margin: 0 22px; }
+
+.footer-reviews-buttons {
+  display: flex;
+  justify-content: center;
+  margin-top: 31px; }
+  .footer-reviews-buttons div {
+    margin-left: 16px; }
+  .footer-reviews-buttons .footer-button_link_left {
+    padding: 10px 16px; }
+
+.footer-button_link {
+  font-family: "IskraCYR-Regular";
+  font-size: 14px;
+  text-transform: uppercase;
+  color: #ffffff;
+  text-decoration: none;
+  border: 1px solid white;
+  padding: 10px 34px; }
+
+.complain {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 78px 0 135px 0; }
+  .complain > p {
+    font-family: "IskraCYR-Regular";
+    font-size: 24px;
+    color: white; }
+
+.footer-informs {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 13px; }
+
+.footer-informs__nav {
+  display: flex;
+  justify-content: space-between;
+  width: 622px; }
+  .footer-informs__nav a {
+    font-family: "IskraCYR-Regular";
+    font-size: 15px;
+    color: white;
+    text-transform: uppercase;
+    text-decoration: none; }
+
+.footer-informs__social {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline; }
+  .footer-informs__social > div {
+    display: flex;
+    justify-content: space-between;
+    width: 92px;
+    align-items: baseline; }
+  .footer-informs__social span {
+    font-family: "IskraCYR-Lighter";
+    color: white;
+    font-size: 14px;
+    margin-left: 25px; }
+    .footer-informs__social span a {
+      color: #e31e24;
+      text-decoration: none; }
 
 /*# sourceMappingURL=style.css.map */
